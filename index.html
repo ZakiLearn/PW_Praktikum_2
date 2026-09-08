@@ -6,12 +6,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="./src/style.css" />
     <link rel="stylesheet" href="./src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header class="h-[82px] bg-[#0ae448] border flex items-center">
-      <h1 class="text-2xl font-bold">ZakiLearn</h1>
-      <div></div>
+    <header
+      class="h-[82px] bg-[#0ae448] border flex items-center justify-between"
+      style="padding: 0px 15px"
+    >
+      <h1 class="text-2xl font-bold bungee-regular">ZakiLearn</h1>
+      <div class="flex justify-between" style="width: 300px">
+        <div>Github</div>
+        <div>Paper</div>
+        <div>Hugging Face</div>
+      </div>
+      <div>Contact Me</div>
     </header>
     <nav class="border bg-[#111111] items-center">
       <ul class="flex flex-col h-[950px] justify-around">
@@ -39,24 +53,26 @@
       </ul>
     </nav>
     <main>
-      <section>
-        <h2 class="text-green-400">Konten Utama</h2>
+      <section class="bg-amber-400">
+        <div class="bg-amber-400">
+          <h2 class="text-green-400">Konten Utama</h2>
 
-        <article>
-          <h3>Artikel Pertama</h3>
-          <p class="text-green-500">
-            Ini adalah contoh isi artikel pertama. Konten utama berada di
-            sebelah kiri.
-          </p>
-        </article>
+          <article>
+            <h3>Artikel Pertama</h3>
+            <p class="text-green-500">
+              Ini adalah contoh isi artikel pertama. Konten utama berada di
+              sebelah kiri.
+            </p>
+          </article>
 
-        <article>
-          <h3>Artikel Kedua</h3>
-          <p>
-            Ini adalah contoh isi artikel kedua. HTML semantik membantu membuat
-            struktur halaman lebih jelas.
-          </p>
-        </article>
+          <article>
+            <h3>Artikel Kedua</h3>
+            <p>
+              Ini adalah contoh isi artikel kedua. HTML semantik membantu
+              membuat struktur halaman lebih jelas.
+            </p>
+          </article>
+        </div>
       </section>
       <aside>
         <h2>Sidebar</h2>
